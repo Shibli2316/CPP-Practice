@@ -1,10 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int adding(int x, int y)
-{
-    while (y != 0)
-    {
+int adding(int x, int y){
+    while (y != 0){
         int carry = x & y;
         x = x ^ y;
         y = carry << 1;
