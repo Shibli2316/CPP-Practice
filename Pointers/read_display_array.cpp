@@ -15,7 +15,7 @@ int main()
         cin >> *(arr + i);
     }
 
-    // pointer for printing data of array
+    
     cout << "The array is ";
     cout << "[";
     for (int i = 0; i < size; i++)
