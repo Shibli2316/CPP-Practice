@@ -30,3 +30,4 @@ int main()
     cout << "The sum of the array is " << sum;
 
 }
+// sum of certain  number of elements defined by the user
