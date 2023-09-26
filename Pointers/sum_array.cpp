@@ -17,7 +17,7 @@ int main()
 
     int sum = 0;
 
-    // pointer for printing data of array
+    
     cout << "The array is ";
     cout << "[";
     for (int i = 0; i < size; i++)
