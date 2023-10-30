@@ -1,6 +1,6 @@
 #include <iostream>
 
-// Non-recursive function to calculate the factorial of a number
+
 unsigned long long factorialNonRecursive(int n) {
     unsigned long long result = 1;
     for (int i = 2; i <= n; ++i) {

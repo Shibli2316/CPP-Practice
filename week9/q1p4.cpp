@@ -1,6 +1,6 @@
 #include <iostream>
 
-// Non-recursive function to calculate the GCD of two numbers using Euclidean algorithm
+
 int gcdNonRecursive(int a, int b) {
     while (b != 0) {
         int temp = b;

@@ -1,6 +1,6 @@
 #include <iostream>
 
-// Recursive function to calculate the factorial of a number
+
 unsigned long long factorialRecursive(int n) {
     if (n == 0 || n == 1)
         return 1;

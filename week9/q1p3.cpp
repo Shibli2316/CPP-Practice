@@ -1,6 +1,6 @@
 #include <iostream>
 
-// Recursive function to calculate the GCD of two numbers using Euclidean algorithm
+
 int gcdRecursive(int a, int b) {
     if (b == 0)
         return a;

@@ -4,7 +4,6 @@ using namespace std;
 
 int countVowels(const char *str) {
     int vowelCount = 0;
-
     while (*str) {
         char c = *str;
         c = tolower(c);
@@ -12,7 +11,6 @@ int countVowels(const char *str) {
         if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
             vowelCount++;
         }
-
         str++;
     }
 

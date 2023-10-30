@@ -42,3 +42,7 @@ int main() {
     
     return 0;
 }
+
+
+// Show both 
+// Given and transposeMatrix
