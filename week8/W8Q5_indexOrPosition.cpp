@@ -1,11 +1,9 @@
 #include <iostream>
 #include <string>
-
 using namespace std;
 
 int main() {
     string S, T;
-
     cout << "Enter the main string (S): ";
     getline(cin, S);
     cout << "Enter the substring to find (T): ";
@@ -18,7 +16,6 @@ int main() {
     } else {
         cout << "Substring T is not found in the main string S. Returning position 1." << endl;
     }
-
     return 0;
 }
 

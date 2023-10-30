@@ -21,8 +21,6 @@ int main() {
         sentence.replace(pos, findStr.length(), replaceStr);
         pos = sentence.find(findStr, pos + replaceStr.length());
     }
-
-
     cout << "Modified sentence: " << sentence << endl;
 
     return 0;

@@ -114,6 +114,3 @@ AND P.regno = C.regno
 AND C.MODEL = 'SUZUKI-DX';
 
 commit;
-
-
-
