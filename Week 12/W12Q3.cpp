@@ -9,30 +9,24 @@ private:
     double height;
 
 public:
-    Triangle(double b, double h)
-    {
+    Triangle(double b, double h){
         base = b;
         height = h;
     }
 
-    double hypo()
-    {
+    double hypo(){
         return sqrt(base * base + height * height);
     }
 
-    double area()
-    {
+    double area(){
         return 0.5 * base * height;
     }
 };
 
-int main()
-{
+int main(){
     Triangle myTriangle(3, 4);
-
     cout << "Hypotenuse: " << myTriangle.hypo() << endl;
     cout << "Area: " << myTriangle.area() << endl;
-
     return 0;
 }
 

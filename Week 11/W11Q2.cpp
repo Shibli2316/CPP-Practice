@@ -4,13 +4,10 @@ using namespace std;
 int main() {
     char choice;
     float num1, num2, result;
-
     cout << "Enter first number: ";
     cin >> num1;
-
     cout << "Enter second number: ";
     cin >> num2;
-
     cout << "Choose an operation:" << endl;
     cout << "1. Addition (+)" << endl;
     cout << "2. Subtraction (-)" << endl;
@@ -43,7 +40,5 @@ int main() {
         default:
             cout << "Invalid choice!" << endl;
     }
-
     return 0;
 }
-
