@@ -1,40 +1,25 @@
 #include <iostream>
 using namespace std;
-
-// Function to perform addition
-float add(float a, float b)
-{
+float add(float a, float b){
     return a + b;
 }
-
-// Function to perform subtraction
-float subtract(float a, float b)
-{
+float subtract(float a, float b){
     return a - b;
 }
-
-// Function to perform multiplication
-float multiply(float a, float b)
-{
+float multiply(float a, float b){
     return a * b;
 }
-
-// Function to perform division
-float divide(float a, float b)
-{
-    if (b != 0)
-    {
+float divide(float a, float b){
+    if (b != 0){
         return a / b;
     }
-    else
-    {
+    else{
         cout << "Error! Division by zero is not allowed.";
         return 0;
     }
 }
 
-int main()
-{
+int main(){
     float num1, num2, result;
     char operation;
 
@@ -51,8 +36,7 @@ int main()
     cout << "Enter your choice (1/2/3/4): ";
     cin >> operation;
 
-    switch (operation)
-    {
+    switch (operation){
     case '1':
         result = add(num1, num2);
         cout << "Result: " << result;
