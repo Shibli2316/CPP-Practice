@@ -20,7 +20,6 @@ int main() {
     myAddress.state = "Kanada";
     myAddress.zip = "12345";
 
-    // Displaying the present address
     cout << "Name: " << myAddress.name << endl;
     cout << "Home Address: " << myAddress.home_address << endl;
     cout << "Hostel Address: " << myAddress.hostel_address << endl;

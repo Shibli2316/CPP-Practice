@@ -21,7 +21,6 @@ int main() {
     myInfo.birthdate.month = 02;
     myInfo.birthdate.year = 2002;
 
-    // Displaying name and date of birth
     cout << "Name: " << myInfo.name << endl;
     cout << "Date of Birth: " << myInfo.birthdate.day << "/"
          << myInfo.birthdate.month << "/" << myInfo.birthdate.year << endl;
