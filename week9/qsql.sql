@@ -1,6 +1,6 @@
-create database MCA;
+-- create database MCA;
 
-use MCA;
+-- use MCA;
 
 create table PERSON(
 driver_id varchar(5) not null primary key,
@@ -113,4 +113,4 @@ where A.report_number = P.report_number
 AND P.regno = C.regno
 AND C.MODEL = 'SUZUKI-DX';
 
-commit;
+-- commit;

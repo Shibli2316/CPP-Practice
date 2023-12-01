@@ -210,5 +210,5 @@ FROM SYLLABUS
 inner join COURSES on SYLLABUS.co_code = COURSES.co_code
 inner join UNIVERSITY on COURSES.univ_code = UNIVERSITY.univ_code
 WHERE COURSES.co_name = 'Computer Arch.';
-
+ 
 commit;

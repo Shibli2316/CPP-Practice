@@ -1,4 +1,4 @@
-use MCA;
+-- use MCA;
 
 create table BRANCH(
 branch_name varchar(20) PRIMARY KEY,

@@ -7,9 +7,9 @@ struct Employee {
     float basicPay;
 };
 void calculateGrossSalary(Employee &employee) {
-    const float DA_PERCENTAGE = 52;
-    float DA = (DA_PERCENTAGE / 100) * employee.basicPay;
-    float grossSalary = employee.basicPay + DA;
+    const float percent = 52;
+    float p = (percent / 100) * employee.basicPay;
+    float grossSalary = employee.basicPay + p;
     cout << "Employee Name: " << employee.name << endl;
     cout << "Gross Salary: " << grossSalary << endl;
 }
