@@ -2,7 +2,6 @@
 
 using namespace std;
 
-// Base class
 class Shape {
 public:
     virtual void draw() const {
@@ -12,7 +11,6 @@ public:
     virtual ~Shape() {}
 };
 
-// Derived class Circle
 class Circle : public Shape {
 public:
     void draw() const override {
@@ -20,7 +18,6 @@ public:
     }
 };
 
-// Derived class Square
 class Square : public Shape {
 public:
     void draw() const override {
@@ -28,7 +25,6 @@ public:
     }
 };
 
-// Derived class Triangle
 class Triangle : public Shape {
 public:
     void draw() const override {
