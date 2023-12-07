@@ -56,14 +56,14 @@ private:
 };
 
 int main() {
-    // Get input from the user
+    
     string teacherName, subject;
     int teacherId;
     cout << "Enter teacher's name: ";
     getline(cin, teacherName);
     cout << "Enter teacher's ID: ";
     cin >> teacherId;
-    cin.ignore(); // Clear the input buffer
+    cin.ignore(); 
     cout << "Enter subject: ";
     getline(cin, subject);
 
@@ -85,17 +85,17 @@ int main() {
     string officerName, department;
     int officerId;
     cout << "\nEnter officer's name: ";
-    cin.ignore(); // Clear the input buffer
+    cin.ignore(); 
     getline(cin, officerName);
     cout << "Enter officer's ID: ";
     cin >> officerId;
-    cin.ignore(); // Clear the input buffer
+    cin.ignore(); 
     cout << "Enter department: ";
     getline(cin, department);
 
     Officer officer(officerName, officerId, NonTeachingStaff::REGULAR, department);
 
-    // Display information
+    
     cout << "\nTeacher Information:" << endl;
     cout << "Name: " << teacher.getName() << " (" << teacher.getId() << ")" << endl;
     cout << "Subject: " << teacher.getSubject() << endl;
