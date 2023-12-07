@@ -10,53 +10,39 @@ private:
 public:
     Number(int v1, int v2) : value1(v1), value2(v2) {}
 
-    // Overloaded addition operator
-    Number operator+(const Number& other) const
-    {
+    Number operator+(const Number& other) const{
         Number result(value1 + other.value1, value2 + other.value2);
         return result;
     }
 
-    // Overloaded subtraction operator
-    Number operator-(const Number& other) const
-    {
+    Number operator-(const Number& other) const{
         Number result(value1 - other.value1, value2 - other.value2);
         return result;
     }
 
-    // Overloaded multiplication operator
-    Number operator*(const Number& other) const
-    {
+    Number operator*(const Number& other) const{
         Number result(value1 * other.value1, value2 * other.value2);
         return result;
     }
 
-    // Overloaded division operator
-    Number operator/(const Number& other) const
-    {
-        // Check if divisor's values are not zero
-        if (other.value1 != 0 && other.value2 != 0)
-        {
+    Number operator/(const Number& other) const{
+        if (other.value1 != 0 && other.value2 != 0){
             Number result(value1 / other.value1, value2 / other.value2);
             return result;
         }
-        else
-        {
+        else{
             cerr << "Error: Division by zero\n";
             exit(1);
         }
     }
 
     // Display function to show the values
-    void display() const
-    {
+    void display() const{
         cout << "Value1: " << value1 << ", Value2: " << value2 << endl;
     }
 };
 
-int main()
-{
-    // Taking input from the user
+int main(){
     int input1, input2;
     cout << "Enter the values for num1 (space-separated): ";
     cin >> input1 >> input2;
