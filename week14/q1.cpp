@@ -1,37 +1,30 @@
 #include <iostream>
 using namespace std;
 
-class Person
-{
+class Person{
 private:
     int age;
 
 public:
-    Person(int initialAge)
-    {
+    Person(int initialAge){
         age = initialAge;
     }
 
-    Person elder(const Person& other)
-    {
-        if (this->age > other.age)
-        {
+    Person elder(const Person& other){
+        if (this->age > other.age){
             return *this;
         }
-        else
-        {
+        else{
             return other;
         }
     }
 
-    int getAge() const
-    {
+    int getAge() const{
         return age;
     }
 };
 
-int main()
-{
+int main(){
     int age1, age2;
     cout << "Enter age of person 1: ";
     cin >> age1;
