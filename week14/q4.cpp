@@ -5,11 +5,10 @@ class MeanCalculator;
 
 double calculateMean(const MeanCalculator& calculator, const int* numbers, int n);
 
-
 class MeanCalculator {
 private:
-    int* numbers; // Array to store numbers
-    int size;     // Size of the array
+    int* numbers; 
+    int size;     
 
 public:
     MeanCalculator(int* nums, int count) : numbers(nums), size(count) {}
